@@ -29,5 +29,5 @@ Pod::Spec.new do |s|
 
   s.source_files = '*.{h,m}'
 
-  s.dependency 'SocketRocket', '~> 0.2'
+  s.dependency 'SocketRocket-CookieFix', '0.4.1-cookie-fix'
 end
