@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'socket.IO'
+  s.name             = 'socket.IO-fix'
   s.version          = '0.5.2'
   s.summary          = 'socket.io v0.7.2+ for iOS devices.'
 
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Philipp Kyeck' => 'philipp@beta-interactive.de' }
-  s.source           = { :git => 'https://github.com/iamat/socket.IO-objc', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/iamat/socket.IO-objc' }
 
   s.ios.deployment_target = '8.0'
 
